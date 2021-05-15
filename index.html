@@ -11,6 +11,7 @@
 </head>
 <body>
     <div class="container"> 
+        <div class="weather-app-wrapper">
         <div class="weather-app">
     <h1>
         Tokyo
@@ -25,9 +26,14 @@
     </ul>
     <div class="row">
         <div class="col-6">
+            <div class="clearfix"> 
 <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" 
-alt="Clear"/>
+alt="Clear"class="float-left"/>
+<div class="float-left">
 25℃ | ℉
+</div>
+</div>
+</div>
 <div class="col-6">
 <ul>
     <li>
@@ -41,7 +47,6 @@ alt="Clear"/>
     </li>
 </ul>
 </div>
-        </div>
     </div>
     </div>
     <small>
@@ -49,6 +54,7 @@ alt="Clear"/>
         target="_blank">Open-source code
         </a> by Esther Chukwu
     </small>
+    </div>
     </div>
     <script src="src/app.js"></script>
 </body>
