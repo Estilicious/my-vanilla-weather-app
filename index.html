@@ -30,7 +30,7 @@
             <div class="d-flex weather-temperature"> 
 <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" 
 alt="Clear"class="float-left"/>
-<div class="float-left">
+<div class="d-flex align-items-start">
 <strong id="temperature"></strong><span class="units">℃ |<a href="#">℉</a> </span>
 </div>
 </div>
@@ -38,13 +38,10 @@ alt="Clear"class="float-left"/>
 <div class="col-6">
 <ul>
     <li>
-        Precipitation: 10%
+        Humidity: <span id="humidity"></span>%
     </li>
     <li>
-        Humidity: 55%
-    </li>
-    <li>
-        Wind: 5 km/h 
+        Wind: <span id="wind"> </span>km/h 
     </li>
 </ul>
 </div>
